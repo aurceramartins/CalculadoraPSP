@@ -50,14 +50,17 @@ public class ServidorPSP {
                 break;
             case 2:
                 int resta = Integer.valueOf(mensajes[0]) - Integer.valueOf(mensajes[1]);
+                System.out.println(String.valueOf(resta));
                 resultado = String.valueOf(resta);
                 break;
             case 3:
                 float multi = Integer.valueOf(mensajes[0]) * Integer.valueOf(mensajes[1]);
+                System.out.println(String.valueOf(multi));
                 resultado = String.valueOf(multi);
                 break;
             case 4:
                 float divi = Integer.valueOf(mensajes[0]) / Integer.valueOf(mensajes[1]);
+                System.out.println(String.valueOf(divi));
                 resultado = String.valueOf(divi);
                 break;
             default:

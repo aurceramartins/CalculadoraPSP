@@ -41,8 +41,8 @@ public class Cliente extends Thread {
 
             if (cliente == 1) {
                 Cliente cli2 = new Cliente("cliente " + 2);
-                
                 cli2.start();
+
             } else if (cliente == 2) {
                 cli = new Cliente("cliente " + 3);
                 cli.start();
@@ -58,6 +58,7 @@ public class Cliente extends Thread {
             } else if (cliente == 5) {
                 cli = new Cliente("cliente " + 6);
                 cli.start();
+
             } else {
                 System.out.println("Servidor Saturado");
             }
